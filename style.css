@@ -33,31 +33,26 @@ small {
 /**
  * Headings
  */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 1;
-  text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
-  margin-top: 0;
-  margin-bottom: 2rem;
-  font-weight: 300;
+ h1, h2 {
+  color: #ffffff;
 }
-h1 { font-size: 4.5rem; line-height: 1.25; letter-spacing: -.1rem; }
-h2 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
-h3 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
-h4 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
-h5 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
-h6 { font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; }
 
-/**
- * Paragraphs
- */
+h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+h4 {
+  margin: 5px 0;
+  color: #2980b9;
+  font-weight: normal;
+}
+
 p {
   margin: 0 auto 1.5em auto; /* bottom margin for paragraphs */
+  color: #7f8c8d;
 }
+
 p + p {
 
 }
@@ -132,6 +127,15 @@ ul.main-menu li a:hover {
 ul.main-menu li a.active {
   color:#FFFFFF;
   border-bottom-color:#EF6D3D;
+}
+
+
+.education-item, .work-item {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Utility classes */
