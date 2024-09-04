@@ -30,8 +30,6 @@
     <header id="header">
       <!--<img src="logo.png">-->
       <h1>Juan Antonio Gomez Daza</h1>
-      <h4>Computer Scientists</h4>
-
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
         <li><a href="#home">About Me</a></li>
@@ -47,16 +45,18 @@
         <div id="content"> 
           
           <div id="home" class="content-region hide">
-            <p>
-              CV, Robotics and AI enthusiast seeking a job opportunity. I completed my Master's in Computer Science at the Technical University of Berlin, where I also worked as a Student Research Assistant in the Excellence Cluster Science of Intelligence. I hold a B.Sc. in Sound and Image Engineering (Electrical Engineering) from the University of Malaga. Additionally, I have gained relevant engineering experience through various previous roles.
-            </p>
+            <div class="base-item">
+              <p>
+                CV, Robotics and AI enthusiast seeking a job opportunity. I completed my Master's in Computer Science at the Technical University of Berlin, where I also worked as a Student Research Assistant in the Excellence Cluster Science of Intelligence. I hold a B.Sc. in Sound and Image Engineering (Electrical Engineering) from the University of Malaga. Additionally, I have gained relevant engineering experience through various previous roles.
+              </p>
+            </div>
           </div>
 
           <div id="education" class="content-region hide">
             <!--<img src="image.png" alt="TU Berlin Logo" class="education-logo">-->
             <a href="https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-science-b-sc" target="_blank" class="education-link">
               <div class="education-item">
-                <table style="border-collapse: collapse; width: 100%; height: 36px;" border="1">
+                <table style="border-collapse: collapse; width: 100%; height: 36px;" border="0">
                 <tbody>
                 <tr style="height: 18px;">
                 <td style="width: 6.43836%; height: 18px;"><img src="images/tu-logo.jpg" alt="TU Berlin" width="98" height="98" /></td>
@@ -73,10 +73,10 @@
 
             <a href="https://www.uned.es/universidad/inicio/en/estudios/grados/grado-en-ingenieria-informatica.html?idContenido=1" target="_blank" class="education-link">
               <div class="education-item">
-                <table style="border-collapse: collapse; width: 100%; height: 36px;" border="1">
+                <table style="border-collapse: collapse; width: 100%; height: 36px;" border="0">
                 <tbody>
                 <tr style="height: 18px;">
-                <td style="width: 6.43836%; height: 18px;"><img src="images/Logo-Uned.jpg" alt="TU Berlin" width="98" height="98" /></td>
+                <td style="width: 6.43836%; height: 18px;"><img src="images/Logo-Uned.jpg" alt="Logo Uned" width="98" height="98" /></td>
                 <td style="width: 93.5616%; height: 18px;">
                 <h3 style="padding-left: 40px;">U.N.E.D. (Spanish National Distance University)</h3>
                 <h4 style="padding-left: 40px;">Bachelor’s degree - Computer Science</h4>
@@ -90,10 +90,10 @@
             
             <a href="https://www.uma.es/grado-en-ingenieria-de-sonido-e-imagen/info/8030/grado-en-ingenieria-de-sonido-e-imagen-INFO/?set_language=en" target="_blank" class="education-link">
               <div class="education-item">
-                <table style="border-collapse: collapse; width: 100%; height: 36px;" border="1">
+                <table style="border-collapse: collapse; width: 100%; height: 36px;" border="0">
                 <tbody>
                 <tr style="height: 18px;">
-                <td style="width: 6.43836%; height: 18px;"><img src="images/uma-logo.jpg".jpg" alt="TU Berlin" width="98" height="98" /></td>
+                <td style="width: 6.43836%; height: 18px;"><img src="images/uma-logo.jpg" alt="UMA" width="98" height="98" /></td>
                 <td style="width: 93.5616%; height: 18px;">
                 <h3 style="padding-left: 40px;">University of Malaga</h3>
                 <h4 style="padding-left: 40px;">Bachelor’s degree - Sound and Image Engineering</h4>
@@ -107,29 +107,88 @@
           </div>
           
           <div id="projects" class="content-region hide">
-            <h2>Projects</h2>
-            <p>
-              This is a simple website template published with Github Pages. <a href="https://github.com/zirafa/simple-website-template">Fork this repository</a> to create your own site!
-            </p>
+            <div class="base-item">
+              <h3>Shaping the Spatio-Temporal Structure of Event-Based Camera Streams for Robot Control (Master Thesis)</h3>
+              <p>[<a href="https://tubcloud.tu-berlin.de/s/XWjQ4XzQ6iK6D84">PDF</a>] [Code: TODO]</p>
+              <p>The aim of this project is to attain constrained motions by shaping the spatio-temporal structure of event-based camera streams. The algorithm actively uses the movement of the robot to assess the shaping of the stream&rsquo;s structure. The achieved constrained motions are bio-inspired by natural vision systems. Developed in Python/C++ and ROS. (Not graded yet)</p>
+              <p><img style="display: block; margin-left: auto; margin-right: auto;" src="images/image-events.png" width="400" height="300" /></p>
+              <!--<p><img src="images/image-events.png" alt="https://icon2.cleanpng.com/20180720/ors/8269bfe6b8960807559068a70be6ec40.webp" width="400" height="300" /></p>-->
+              </div>
           </div>
 
           <div id="working_exp" class="content-region hide">
             <div class="work-item">
-              <h3>Student Research Assistant</h3>
-              <h4>Excellence Cluster Science of Intelligence, Technische Universität Berlin</h4>
-              <p>September 2021 - August 2024</p>
-              <p>
-                Contributed to research projects focused on AI and robotics, including the development of algorithms for autonomous systems.
-              </p>
+              <table style="border-collapse: collapse; width: 100%; height: 36px;" border="0">
+              <tbody>
+              <tr style="height: 18px;">
+              <td style="width: 6.43836%; height: 18px;"><img src="images/scioi-logo.jpg" alt="TU Berlin" width="98" height="98" /></td>
+              <td style="width: 93.5616%; height: 18px;">
+              <h3 style="padding-left: 40px;">Student Research Assistant</h3>
+              <h4 style="padding-left: 40px;">Science of Intelligence</h4>
+              <p style="padding-left: 40px;">(Oct. 12 - Dec. 17)</p>
+              <ul>
+              <li style="list-style-type: none;">
+              <ul>
+              <li>Development and Prototyping of embedded pneumatic system to control soft robotic actuators.</li>
+              <li>SW/HW Development of sensory systems for Soft Robotic Hands.</li>
+              <li>Development/Manufacturing of Soft Robotic Hands.</li>
+              </ul>
+              </li>
+              </ul>
+              </td>
+              </tr>
+              </tbody>
+              </table>
             </div>
+
             <div class="work-item">
-              <h3>Intern Engineer</h3>
-              <h4>Company XYZ</h4>
-              <p>June 2019 - August 2019</p>
-              <p>
-                Assisted in the development and testing of electrical systems for audio-visual equipment.
-              </p>
+              <table style="border-collapse: collapse; width: 100%; height: 36px;" border="0">
+              <tbody>
+              <tr style="height: 18px;">
+              <td style="width: 6.43836%; height: 18px;"><img src="images/eemagine-logo.jpg" alt="eemagine" width="98" height="98" /></td>
+              <td style="width: 93.5616%; height: 18px;">
+              <h3 style="padding-left: 40px;">Development Engineer</h3>
+              <h4 style="padding-left: 40px;">eemagine Medical Imaging Solutions GmbH (Berlin)</h4>
+              <p style="padding-left: 40px;">(Sept 19-May 22)</p>
+              <ul>
+              <li style="list-style-type: none;">
+              <ul>
+              <li>Test Automation Development for EEG amplifier systems.</li>
+              <li>Algorithm Development for Test Applications.</li>
+              <li>Software/Hardware Testing of Neuronavigation for Transcranial Magnetic Stimulation (TMS) and EEG recording systems.</li>
+              </ul>
+              </li>
+              </ul>
+              </td>
+              </tr>
+              </tbody>
+              </table>
             </div>
+            
+            <div class="work-item">
+              <table style="border-collapse: collapse; width: 100%; height: 36px;" border="0">
+              <tbody>
+              <tr style="height: 18px;">
+              <td style="width: 6.43836%; height: 18px;"><img src="images/keysight-logo.jpg" alt="keysight" width="98" height="98" /></td>
+              <td style="width: 93.5616%; height: 18px;">
+              <h3 style="padding-left: 40px;">LTE Test System Development Internship</h3>
+              <h4 style="padding-left: 40px;">Keysight Technologies (Malaga)</h4>
+              <p style="padding-left: 40px;">(Nov. 17-May 17)</p>
+              <ul>
+              <li style="list-style-type: none;">
+              <ul>
+              <li>Development of LTE Test Automation Applications.</li>
+              <li>Use of mobile communication measurement equipment.</li>
+              <li>Execution of manual and automated test cases for 3GPP LTE systems.</li>
+              </ul>
+              </li>
+              </ul>
+              </td>
+              </tr>
+              </tbody>
+              </table>
+            </div>
+
           </div>
           
           <div id="contact" class="content-region hide">

@@ -20,7 +20,7 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#ffffff;
+  color:#0000EE;
 }
 a:focus {
   outline: thin dotted;
@@ -50,6 +50,11 @@ h4 {
 
 p {
   margin: 0 auto 1.5em auto; /* bottom margin for paragraphs */
+  color: #7f8c8d;
+}
+
+li{
+  margin: 0; /* bottom margin for paragraphs */
   color: #7f8c8d;
 }
 
@@ -118,19 +123,19 @@ ul.main-menu {
 ul.main-menu li a {
   margin-right:20px;
   font-size:2.0rem;
-  border-bottom: solid transparent 3px;
+  border-bottom: solid transparent 0px;
   color:#cfd2da;
 }
 ul.main-menu li a:hover {
-  color:#FFFFFF;
+  color:#4f44f0;
 }
 ul.main-menu li a.active {
-  color:#FFFFFF;
+  color:#EF6D3D;
   border-bottom-color:#EF6D3D;
 }
 
 
-.education-item, .work-item {
+.base-item, .education-item, .work-item {
   background-color: #fff;
   padding: 15px;
   margin-bottom: 15px;
